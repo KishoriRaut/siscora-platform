@@ -20,6 +20,7 @@
     "@auth/prisma-adapter": "^2.10.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.2.0",
+    "@hookform/resolvers": "^5.1.1",
     "@prisma/client": "^6.11.1",
     "@supabase/auth-helpers-nextjs": "^0.10.0",
     "@supabase/auth-helpers-react": "^0.5.0",
@@ -30,16 +31,19 @@
     "cross-env": "^7.0.3",
     "framer-motion": "^12.23.0",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.525.0",
     "next": "14.1.0",
     "next-auth": "^4.24.11",
     "next-pwa": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.60.0",
     "react-icons": "^5.5.0",
     "react-leaflet": "^4.2.1",
     "sharp": "^0.34.2",
     "styled-components": "^6.1.8",
-    "workbox-window": "^7.2.0"
+    "workbox-window": "^7.2.0",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
