@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 import { WifiOff, Home } from 'lucide-react';
 
 export default function OfflinePage() {
@@ -18,12 +17,10 @@ export default function OfflinePage() {
           It seems you're not connected to the internet. Please check your connection and try again.
         </p>
         
-        <Button asChild className="mt-4">
-          <Link href="/" className="inline-flex items-center gap-2">
-            <Home className="h-4 w-4" />
-            Go to Homepage
-          </Link>
-        </Button>
+        <Link href="/" className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-indigo-600 text-white rounded-md font-medium hover:bg-indigo-700 transition-colors">
+          <Home className="h-4 w-4" />
+          Go to Homepage
+        </Link>
         
         <div className="pt-6 border-t border-gray-200 dark:border-gray-800 mt-8">
           <p className="text-sm text-gray-500 dark:text-gray-400">
