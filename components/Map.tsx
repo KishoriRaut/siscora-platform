@@ -75,7 +75,6 @@ const MapWithNoSSR = dynamic(
             />
             <Marker 
               position={position}
-              icon={createCustomIcon()}
             >
               <Popup>
                 <div className="text-center p-2">
